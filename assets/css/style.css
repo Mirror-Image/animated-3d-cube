@@ -16,8 +16,8 @@ body {
   height: inherit;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-transform: rotate3d(1, 1, 1, 15deg);
-          transform: rotate3d(1, 1, 1, 15deg);
+  -webkit-transform: rotate3d(1, 1.2, 0.4, 35deg);
+          transform: rotate3d(1, 1.2, 0.4, 35deg);
 }
 
 .side {
@@ -30,6 +30,8 @@ body {
   text-align: center;
   line-height: 300px;
   color: #ffffff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .front {
